@@ -11,7 +11,7 @@ header{
 
 main {
   width: 960px;
-  margin: 50px auto;
+  margin: 50px 0;
   display: flex;
 }
 
@@ -63,16 +63,16 @@ footer{
 
 @media screen and (max-width: 768px) {
   main {
-  display: block;
-  width: 90%;
+  width: 100%;
+  display: grid;
+  place-items: center;
   }
-  
+
   .box{
     width: 90%;
     margin:20px 0;
-    
   }
-  
+
   header,footer{
     width:auto;
   }
