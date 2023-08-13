@@ -7,11 +7,12 @@
 header{
   background-color: #FF9A4B;
   height: 50px;
+  width:auto;
 }
 
 main {
   width: 960px;
-  margin: 50px 0;
+  margin: 50px auto;
   display: flex;
 }
 
@@ -59,6 +60,7 @@ h3{
 footer{
   background-color: #AAAAAA;
   height: 50px;
+  width:auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -71,10 +73,6 @@ footer{
   .box{
     width: 90%;
     margin:20px 0;
-  }
-
-  header,footer{
-    width:auto;
   }
 
 }
